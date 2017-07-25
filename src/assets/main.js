@@ -85,7 +85,7 @@ function getResults(input){
   html+='</div></div>';
   document.getElementById('results').innerHTML += html;
 
-  if(input == asnwer.value){
+  if(input == answer.value){
     return true;
 
   }
