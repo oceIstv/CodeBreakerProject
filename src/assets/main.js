@@ -47,9 +47,9 @@ function showAnswer(success){
 
   let code= document.getElementById('code');
   if(success){
-    code.className += 'success';
+    code.className += ' success';
   }else{
-    code.className += 'failure';
+    code.className += ' failure';
   }
   code.innerHTML = answer.value;
 }
